@@ -1,0 +1,16 @@
+{
+  "name": "viteach.github.io",
+  "version": "0.0.1",
+  "description": "Official website for VITeach club VITCC.",
+  "main": "src/index.js",
+  "repository": "https://github.com/VITeach/viteach.github.io.git",
+  "author": "digi0ps <sriru1998@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "server:dev": "hrs -p 8000 ."
+  },
+  "dependencies": {
+    "simple-hot-reload-server": "^1.1.12"
+  }
+}
