@@ -1,12 +1,18 @@
-$(function() {
-  $.stellar({
-    horizontalScrolling: false,
-    verticalOffset: 40,
+$(document).ready(function() {
+  // Activate path
+  Path.listen();
+  // Activate Stellar
+  $(function() {
+    $.stellar({
+      horizontalScrolling: false,
+      verticalOffset: 40,
+    });
   });
 });
 
 // Scroll to top if the user clicks the header text
 $(".header-text").on("click", function(e) {
+  history.pushState(null, null, `#/gallery`);
   window.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -16,12 +22,8 @@ $(".header-text").on("click", function(e) {
 // Scroll to the section on navigation li click.
 $(".navigation li").on("click", function(e) {
   const sectionName = e.target.dataset.sectionName;
-  const section = $(`.section[data-section=${sectionName}]`)[0];
-  window.section = section;
-  window.scrollTo({
-    top: section.getBoundingClientRect().top,
-    behavior: "smooth",
-  });
+  utils.scrollToSection(sectionName);
+  history.pushState(null, null, `#/${sectionName}`);
 });
 
 // TODO: Add scroll based url updation (preferably using path.js)
