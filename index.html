@@ -15,29 +15,38 @@
 
 <body>
     <div class="header">
-        <a class="header-text" href="/">
+        <p class="header-text">
             <span>VIT</span>each
-        </a>
+        </p>
     </div>
-    <div class="section gallery" data-stellar-background-ratio="0.5">
+    <ul class="navigation" style="display: block;">
+        <li data-section-name="gallery" class="dark-menu active">Gallery</li>
+        <li data-section-name="team" class="dark-menu">Team</li>
+        <li data-section-name="projects" class="dark-menu">Projects</li>
+        <li data-section-name="intro" class="dark-menu">Intro</li>
+        <li data-section-name="about" class="dark-menu">About</li>
+        <li data-section-name="functionalteams" class="dark-menu">Functional Teams</li>
+        <li data-section-name="contact" class="dark-menu">Contacts</li>
+    </ul>
+    <div class="section gallery" data-section="gallery" data-stellar-background-ratio="0.5">
         <div>Lorem Gallery</div>
     </div>
-    <div class="section team" data-stellar-background-ratio="0.5">
+    <div class="section team" data-section="team" data-stellar-background-ratio="0.5">
         <div>Lorem Team</div>
     </div>
-    <div class="section projects" data-stellar-background-ratio="0.5">
+    <div class="section projects" data-section="projects" data-stellar-background-ratio="0.5">
         <div>Lorem Projects</div>
     </div>
-    <div class="section intro" data-stellar-background-ratio="0.5">
+    <div class="section intro" data-section="intro" data-stellar-background-ratio="0.5">
         <div>Lorem Intro</div>
     </div>
-    <div class="section about" data-stellar-background-ratio="0.5">
+    <div class="section about" data-section="about" data-stellar-background-ratio="0.5">
         <div>Lorem About</div>
     </div>
-    <div class="section functionalteams" data-stellar-background-ratio="0.5">
+    <div class="section functionalteams" data-section="functionalteams" data-stellar-background-ratio="0.5">
         <div>Lorem Functional Teams</div>
     </div>
-    <div class="section contact" data-stellar-background-ratio="0.5">
+    <div class="section contact" data-section="contact" data-stellar-background-ratio="0.5">
         <div>Lorem Contacts</div>
     </div>
     <script src="src/js/index.js"></script>

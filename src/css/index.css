@@ -30,6 +30,7 @@ body {
   padding-bottom: 1px;
   padding-left: 15px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .header-text:focus,
@@ -42,6 +43,34 @@ body {
   font-size: 25px;
   font-weight: 500;
   padding-right: 0.5px;
+}
+
+.navigation {
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  margin-top: -215px;
+  text-align: center;
+}
+
+.navigation li {
+  color: #fff;
+  display: block;
+  padding: 0 10px;
+  line-height: 37px;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
+  text-align: left;
+  width: 173px;
+  padding-left: 28px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
 }
 
 .section {
