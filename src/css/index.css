@@ -62,8 +62,8 @@ body {
   font-size: 18px;
   border-bottom: 2px solid #fff;
   text-align: left;
-  width: 173px;
-  padding-left: 28px;
+  width: 90px;
+  padding-left: 15px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -71,6 +71,21 @@ body {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   text-align: center;
+}
+
+.navigation li.light-menu {
+  color: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.12) !important;
+  text-shadow: 0px 1px 1px black;
+}
+
+.navigation li.light-menu:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.52) !important;
+}
+
+.navigation li.light-menu.active {
+  color: white !important;
+  border-bottom: 2px solid rgb(255, 255, 255) !important;
 }
 
 .section {

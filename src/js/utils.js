@@ -29,3 +29,14 @@ utils.scrollToSection = function(sectionName) {
     });
   }
 };
+
+/**
+ * Updates the active navigation <li> element based on the section
+ * name passed.
+ * @param {string} sectionName Name of the section to make li active.
+ */
+utils.makeLiActive = function(sectionName) {
+  $(".navigation li").removeClass("active");
+  const activeLi = $(`.navigation li[data-section-name=${sectionName}]`);
+  activeLi.addClass("active");
+};

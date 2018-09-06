@@ -12,7 +12,6 @@ $(document).ready(function() {
 
 // Scroll to top if the user clicks the header text
 $(".header-text").on("click", function(e) {
-  history.pushState(null, null, `#/gallery`);
   window.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -23,8 +22,27 @@ $(".header-text").on("click", function(e) {
 $(".navigation li").on("click", function(e) {
   const sectionName = e.target.dataset.sectionName;
   utils.scrollToSection(sectionName);
-  history.pushState(null, null, `#/${sectionName}`);
 });
 
 // TODO: Add scroll based url updation (preferably using path.js)
-// TODO: Add scroll based element highlighting
+// TODO: Add scroll based element highlight
+let index;
+window.addEventListener("scroll", function(e) {
+  const scrollTop = $(window).scrollTop();
+  const sectionHeight = $(".section").height();
+  const headerOffset = 40;
+  // Find the section the user is currently in while scrolling.
+  const activeSectionIndex = Math.floor(
+    (scrollTop + headerOffset) / sectionHeight,
+  );
+  // Update the active section only once and not for every scroll
+  // event fired.
+  if (index === activeSectionIndex) return;
+  index = activeSectionIndex;
+  const activeSection = $(".section")[index];
+  // Update location hash.
+  const sectionName = activeSection.dataset.section;
+  history.pushState(null, null, `#/${sectionName}`);
+  // Update active nav panel element
+  utils.makeLiActive(sectionName);
+});
