@@ -51,7 +51,7 @@ body {
   top: calc(50% + 50px);
   margin-top: -215px;
   text-align: center;
-  background: rgba(51, 51, 51, 0.35);
+  background: transparent;
 }
 
 .navigation li {
@@ -63,7 +63,7 @@ body {
   font-size: 18px;
   border-bottom: 2px solid #fff;
   text-align: left;
-  width: 100px;
+  width: 155px;
   padding-left: 15px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
@@ -138,18 +138,34 @@ body {
   text-align: center;
 }
 
-.gallery,
-.about {
-  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/summer.jpg);
-}
-.team,
-.functionalteams {
-  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/autumn.jpg);
-}
-.projects,
-.contact {
-  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/spring.jpg);
-}
 .intro {
+  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+.adwprimary {
+  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+.angilam {
+  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+.naik {
+  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+.wishtree {
+  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+.carnival {
+  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+.kumizhi {
+  background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+.contacts {
   background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
 }
