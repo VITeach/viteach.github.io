@@ -138,6 +138,67 @@ body {
   text-align: center;
 }
 
+.homepage {
+  background: #f3f3f3;
+  background-image: url(/assets/images/logo.png);
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  background-position: 50% 45%;
+  z-index: 1000;
+}
+
+.homepage .section-text {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: right;
+  left: 15%;
+}
+
+.homepage .section-text .title {
+  font-size: 45px;
+  font-weight: 300;
+  color: rgba(113, 113, 113, 1);
+  padding-top: 8%;
+  letter-spacing: 1.5px;
+  padding-bottom: 1px;
+}
+
+.homepage .section-text .red {
+  color: #b13c3c;
+  font-weight: 500;
+  padding-right: 2px;
+}
+
+.homepage .section-text .desc {
+  margin: 5px 5px;
+  font-size: 20px;
+  color: #9e9e9e;
+}
+
+.homepage .scroll-button {
+  padding: 11px 25px 13px;
+  letter-spacing: 0.25px;
+  background: transparent;
+  border: 2px solid #b13c3c;
+  color: #b13c3c;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 200px;
+  bottom: 100px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.homepage .scroll-button:hover {
+  color: #fff;
+  background-color: #b13c3c;
+}
+
 .intro {
   background-image: url(/assets/images/img_1.jpg);
 }

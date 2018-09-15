@@ -42,7 +42,13 @@ window.addEventListener("scroll", function(e) {
   const activeSection = $(".section")[index];
   // Update location hash.
   const sectionName = activeSection.dataset.section;
+  if (!sectionName) return;
   history.pushState(null, null, `#/${sectionName}`);
   // Update active nav panel element
   utils.makeLiActive(sectionName);
+});
+
+$(".scroll-button").on("click", function(e) {
+  e.preventDefault();
+  utils.scrollToSection("intro");
 });

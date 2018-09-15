@@ -10,6 +10,7 @@ utils.scrollToSection = function(sectionName) {
   // Actual scroll function
   const doScroll = function() {
     const top = $(window).scrollTop() + section.getBoundingClientRect().top;
+    console.log(top);
     window.scrollTo({
       top: top,
       behavior: "smooth",
