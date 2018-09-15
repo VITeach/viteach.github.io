@@ -100,7 +100,7 @@ body {
 }
 
 .section-text {
-  top: 50px;
+  top: 100px;
   left: 50%;
   transform: translateX(-55%);
   color: white;
@@ -110,6 +110,7 @@ body {
   padding: 10px;
   position: absolute;
   width: 50%;
+  background-color: rgba(20, 20, 20, 0.3);
 }
 
 .section-text .title {
@@ -151,6 +152,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   text-align: right;
   left: 15%;
+  background-color: transparent;
 }
 
 .homepage .section-text .title {
