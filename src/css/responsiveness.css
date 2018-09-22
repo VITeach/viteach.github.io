@@ -1,0 +1,33 @@
+@media screen and (max-width: 550px) {
+  .section-text {
+    width: 75%;
+    top: 10vh;
+    transform: translateX(-50%);
+  }
+
+  .homepage .section-text {
+    left: 50%;
+    top: 3.5%;
+    transform: translateX(-50%);
+  }
+
+  .homepage .section-text .title {
+    text-align: center;
+  }
+
+  .homepage .section-text .volume {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .homepage .scroll-button {
+    font-size: 1.1em;
+    width: 180px;
+    padding: 10px 23px 10px;
+    bottom: 80px;
+  }
+
+  .navigation {
+    display: none;
+  }
+}

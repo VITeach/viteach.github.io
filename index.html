@@ -6,12 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>VITeach</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="src/css/index.css" />
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/jquery.stellar.min.js"></script>
-    <script src="assets/js/path.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic,200"
         rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/responsiveness.css" />
 </head>
 
 <body>
@@ -20,7 +18,7 @@
             <span>VIT</span>each
         </p>
     </div>
-    <ul class="navigation" style="display: block;">
+    <ul class="navigation">
         <li data-section-name="intro" class="light-menu">Intro</li>
         <li data-section-name="adwprimary" class="light-menu active">ADW</li>
         <li data-section-name="angilam" class="light-menu">Angilam Express</li>
@@ -30,11 +28,11 @@
         <li data-section-name="kumizhi" class="light-menu">Kumizhi</li>
         <li data-section-name="contacts" class="light-menu">Contacts</li>
     </ul>
-    <div class="section homepage">
+    <div class="section homepage" data-section="">
         <div class="section-text">
-            <p class="title"><span class="red">VIT</span>each</p>
+            <p class="title"><span class="red homepage-text">VIT</span>each</p>
 
-            <p class="volume">Light A Spark Ignite a Fire.</p>
+            <p class="volume homepage-text">Light A Spark Ignite a Fire.</p>
 
         </div>
         <div class="scroll-button">Know more</div>
@@ -118,6 +116,9 @@
             </p>
         </div>
     </div>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <script src="assets/js/path.min.js"></script>
     <script src="src/js/utils.js"></script>
     <script src="src/js/index.js"></script>
     <script src="src/js/routing.js"></script>
