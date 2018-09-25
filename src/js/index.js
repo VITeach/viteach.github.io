@@ -50,5 +50,5 @@ window.addEventListener("scroll", function(e) {
 
 $(".scroll-button").on("click", function(e) {
   e.preventDefault();
-  utils.scrollToSection("intro");
+  utils.scrollToSection("about");
 });

@@ -5,34 +5,18 @@ Updates the hash of the page, based on the section using Path.js
 
 Path.root("");
 
-Path.map("#/intro").to(function() {
-  utils.scrollToSection("intro");
+Path.map("#/about").to(function() {
+  utils.scrollToSection("about");
 });
 
-Path.map("#/adwprimary").to(function() {
-  utils.scrollToSection("adwprimary");
+Path.map("#/projects").to(function() {
+  utils.scrollToSection("projects");
 });
 
-Path.map("#/angilam").to(function() {
-  utils.scrollToSection("angilam");
+Path.map("#/events").to(function() {
+  utils.scrollToSection("events");
 });
 
-Path.map("#/naik").to(function() {
-  utils.scrollToSection("naik");
-});
-
-Path.map("#/wishtree").to(function() {
-  utils.scrollToSection("wishtree");
-});
-
-Path.map("#/carnival").to(function() {
-  utils.scrollToSection("carnival");
-});
-
-Path.map("#/kumizhi").to(function() {
-  utils.scrollToSection("kumizhi");
-});
-
-Path.map("#/contacts").to(function() {
+Path.map("#/contactus").to(function() {
   utils.scrollToSection("contacts");
 });

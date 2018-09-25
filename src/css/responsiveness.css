@@ -30,4 +30,14 @@
   .navigation {
     display: none;
   }
+
+  .share-buttons {
+    width: 98%;
+    justify-content: space-between;
+    right: 1%;
+  }
+
+  .share-buttons img[alt="Instagram"] {
+    margin-top: 0px;
+  }
 }
