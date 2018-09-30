@@ -63,7 +63,7 @@ body {
   font-size: 18px;
   border-bottom: 2px solid #fff;
   text-align: left;
-  width: 155px;
+  width: 170px;
   padding-left: 15px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
@@ -110,7 +110,7 @@ body {
   padding: 10px;
   position: absolute;
   width: 50%;
-  background-color: rgba(20, 20, 20, 0.3);
+  background-color: rgba(20, 20, 20, 0.5);
 }
 
 .section-text .title {
@@ -136,11 +136,19 @@ body {
   color: white;
   width: 100%;
   margin-top: 25px;
+  text-align: justify;
+}
+
+.carnival .desc {
+  text-align: center;
+}
+
+.intro .desc {
   text-align: center;
 }
 
 .homepage {
-  background: #f1f1f1;
+  background: #f3f3f3;
   background-image: url(/assets/images/logo.png);
   background-size: 50vh 50vh;
   background-repeat: no-repeat;
@@ -187,12 +195,12 @@ body {
   margin-left: 61px;
 }
 .homepage .scroll-button {
-  padding: 11px 25px 13px;
+  padding: 8px 18px;
   letter-spacing: 0.25px;
   background: transparent;
   border: 2px solid #b13c3c;
   color: #b13c3c;
-  font-size: 20px;
+  font-size: 17px;
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
@@ -212,7 +220,11 @@ body {
 }
 
 .intro {
-  background-image: url(/assets/compressed/background-1.jpg);
+  background-image: url(/assets/compressed/background-6.jpg);
+}
+
+.about {
+  background-image: url(/assets/compressed/background-6.jpg);
 }
 
 .adwprimary {
@@ -232,11 +244,11 @@ body {
 }
 
 .carnival {
-  background-image: url(/assets/compressed/background-6.jpg);
+  background-image: url(/assets/compressed/background-1.jpg);
 }
 
 .kumizhi {
-  background-image: url(/assets/compressed/background-1.jpg);
+  background-image: url(/assets/compressed/background-3.jpg);
 }
 
 .contact {

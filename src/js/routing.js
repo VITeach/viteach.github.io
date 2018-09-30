@@ -17,6 +17,10 @@ Path.map("#/events").to(function() {
   utils.scrollToSection("events");
 });
 
+Path.map("#/upcoming").to(function() {
+  utils.scrollToSection("upcoming");
+});
+
 Path.map("#/contactus").to(function() {
   utils.scrollToSection("contacts");
 });
