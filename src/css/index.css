@@ -220,39 +220,39 @@ body {
 }
 
 .intro {
-  background-image: url(/assets/compressed/background-6.jpg);
-}
-
-.about {
-  background-image: url(/assets/compressed/background-6.jpg);
-}
-
-.adwprimary {
-  background-image: url(/assets/compressed/background-2.jpg);
-}
-
-.angilam {
-  background-image: url(/assets/compressed/background-3.jpg);
-}
-
-.naik {
-  background-image: url(/assets/compressed/background-4.jpg);
-}
-
-.wishtree {
-  background-image: url(/assets/compressed/background-5.jpg);
-}
-
-.carnival {
   background-image: url(/assets/compressed/background-1.jpg);
 }
 
-.kumizhi {
+.about {
+  background-image: url(/assets/compressed/background-2.jpg);
+}
+
+.adwprimary {
   background-image: url(/assets/compressed/background-3.jpg);
 }
 
+.angilam {
+  background-image: url(/assets/compressed/background-4.jpg);
+}
+
+.naik {
+  background-image: url(/assets/compressed/background-5.jpg);
+}
+
+.wishtree {
+  background-image: url(/assets/compressed/background-6.jpg);
+}
+
+.carnival {
+  background-image: url(/assets/compressed/background-7.jpg);
+}
+
+.kumizhi {
+  background-image: url(/assets/compressed/background-8.jpg);
+}
+
 .contact {
-  background-image: url(/assets/compressed/background-2.jpg);
+  background-image: url(/assets/compressed/background-1.jpg);
 }
 
 .share-buttons {
